@@ -4,8 +4,8 @@ url = "http://fcpa.stanford.edu/enforcement-actions.html"
 enforcements_df, = pd.read_html(url, header=0)
 
 #print(enforcements_df)
-#enforcements_df.to_csv("enforcements.csv", index=False, header=True)
-enforcements_df.to_json("enforcement.json")
+enforcements_df.to_csv("enforcements.csv", index=False, header=True)
+#enforcements_df.to_json("enforcement.json")
 
 
 #import pandas as pd
